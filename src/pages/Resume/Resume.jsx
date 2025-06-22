@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { FaDownload, FaGraduationCap, FaBriefcase } from "react-icons/fa";
 
-const skills = ["HTML5", "CSS3", "JavaScript (ES6+)", "React.js", "Tailwind CSS", "React Router", "Node.js", "Express.js", "MongoDB","Mongoose", "JWT", "Firebase", "Stripe", "Git/GitHub", "Axios", "Postman", "Framer Motion",];
+const skills = ["HTML5", "CSS3", "JavaScript (ES6+)", "React.js", "Tailwind CSS", "React Router", "Node.js", "Express.js", "MongoDB", "Mongoose", "JWT", "Firebase", "Stripe", "Git/GitHub", "Axios", "Postman", "Framer Motion", "AOS", "Vite"];
 
 const Resume = () => {
     return (

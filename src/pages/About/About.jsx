@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 
-const skills = ["HTML5", "CSS3", "JavaScript (ES6+)", "React.js", "Tailwind CSS", "React Router", "Node.js", "Express.js", "MongoDB", "Mongoose", "Firebase", "JWT", "Stripe", "Git / GitHub", "Postman", "Framer Motion",];
+const skills = ["HTML5", "CSS3", "JavaScript (ES6+)", "React.js", "Tailwind CSS", "React Router", "Node.js", "Express.js", "MongoDB", "Mongoose", "Firebase", "JWT", "Stripe", "Git / GitHub", "Postman", "Framer Motion", "Vite", "AOS"];
 
 const About = () => {
     return (
