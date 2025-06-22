@@ -40,9 +40,9 @@ const projects = [
     },
 ];
 
-export default function Projects({ projectRef }) {
+const Projects = () => {
     return (
-        <section id="projects" className="bg-light py-16 px-6">
+        <section id="projects" className="bg-accent py-16 px-6">
             <div className="max-w-6xl mx-auto text-center">
                 <motion.h2
                     initial={{ opacity: 0, y: 20 }}
@@ -112,3 +112,5 @@ export default function Projects({ projectRef }) {
         </section>
     );
 }
+
+export default Projects;

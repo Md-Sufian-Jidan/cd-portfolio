@@ -1,12 +1,71 @@
-# React + Vite
+# 🌐 Portfolio Website – React Developer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my personal portfolio website built with **React + Vite**, styled using **Tailwind CSS**, and animated with **Framer Motion**. This project was built as part of the CodesRaft Web Developer Internship task.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🖥️ Live Preview
 
-## Expanding the ESLint configuration
+🌍 [Live Site](https://cd-portfolio-ashen.vercel.app/)
+📂 [GitHub Repository](https://github.com/Md-Sufian-Jidan/cd-portfolio)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📌 Features
+
+- 🚀 **Modern stack**: React + Vite + Tailwind CSS + React Router
+- 📱 Fully **responsive layout**
+- 🧩 Modular & reusable components
+- ✨ Smooth scroll animations via Framer Motion
+- 🔐 Projects with real tech & auth (from resume)
+- 📨 Contact form with validation
+- 📄 Resume & Blog sections
+- 🌙 Inspired by [Dribbble Design](https://cdn.dribbble.com/userupload/6163996/file/original-dfe4d6b00d6503138218b94636aafaa7.png?resize=640x4156&vertical=center)
+
+---
+
+## 🧑‍💻 Technologies Used
+
+- **React** + **Vite**
+- **Tailwind CSS**
+- **React Router DOM**
+- **Framer Motion**
+- **React Icons**
+- **JavaScript (ES6+)**
+
+---
+
+## 📁 Pages & Routes
+
+| Page        | Route        | Description                                  |
+|-------------|--------------|----------------------------------------------|
+| Home        | `/`          | Hero, Features, Workflow, Projects           |
+| About       | `/about`     | Bio + Tech Stack                             |
+| Resume      | `/resume`    | Education, Experience, Skills, Certificates |
+| Blog        | `/blog`      | Static blog cards                           |
+| Contact     | `/contact`   | Form with email validation + social links   |
+
+---
+
+## 🚀 Setup & Run Locally
+
+1. **Clone the repo**
+   ```bash
+    git clone https://github.com/Md-Sufian-Jidan/cd-portfolio
+    cd cd-portfolio
+
+    Install dependencies
+    npm install
+
+    Run the development server
+    npm run dev
+
+    Build for production
+    npm run build
+```
+---
+
+📬 Contact
+📧 Email: jidanjiyaj03@gmail.com
+🔗 [Linkedin](https://www.linkedin.com/in/md-abu-sufian-jidan/)
+💻 [GitHub](https://github.com/Md-Sufian-Jidan)

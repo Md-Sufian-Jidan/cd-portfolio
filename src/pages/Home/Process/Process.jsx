@@ -47,7 +47,7 @@ const Process = () => {
                             initial={{ opacity: 0, y: 30 }}
                             whileInView={{ opacity: 1, y: 0 }}
                             transition={{ delay: index * 0.2, duration: 0.5 }}
-                            className="bg-white shadow-md p-6 rounded-xl w-full md:max-w-[22%] text-center relative"
+                            className="bg-white shadow-md p-6 rounded-xl w-full md:max-w-[22%] text-center relative flex flex-col items-center"
                         >
                             <div className="mb-4 mx-auto">{step.icon}</div>
                             <h3 className="text-xl font-semibold text-primary mb-2">{step.title}</h3>

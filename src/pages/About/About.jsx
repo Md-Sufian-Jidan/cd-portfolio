@@ -8,7 +8,7 @@ const About = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
                 {/* Bio Section */}
                 <motion.div
-                    initial={{ opacity: 0, x: -40 }}
+                    initial={{ opacity: 0, x: -25 }}
                     whileInView={{ opacity: 1, x: 0 }}
                     transition={{ duration: 0.6 }}
                 >
@@ -22,7 +22,7 @@ const About = () => {
                 </motion.div>
                 {/* Skills / Tools */}
                 <motion.div
-                    initial={{ opacity: 0, x: 40 }}
+                    initial={{ opacity: 0, x: 25 }}
                     whileInView={{ opacity: 1, x: 0 }}
                     transition={{ duration: 0.6 }}
                 >
