@@ -1,11 +1,11 @@
 import { motion } from "framer-motion";
 
-const skills = ["HTML5", "CSS3", "JavaScript (ES6+)", "React.js", "Tailwind CSS", "React Router", "Node.js", "Express.js", "MongoDB", "Firebase", "JWT", "Stripe", "Git / GitHub", "Postman", "Framer Motion",];
+const skills = ["HTML5", "CSS3", "JavaScript (ES6+)", "React.js", "Tailwind CSS", "React Router", "Node.js", "Express.js", "MongoDB", "Mongoose", "Firebase", "JWT", "Stripe", "Git / GitHub", "Postman", "Framer Motion",];
 
 const About = () => {
     return (
-        <section className="min-h-screen bg-accent py-16 px-6">
-            <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
+        <section className="min-h-screen bg-accent py-10 px-6">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
                 {/* Bio Section */}
                 <motion.div
                     initial={{ opacity: 0, x: -40 }}
@@ -20,7 +20,6 @@ const About = () => {
                         My focus is on writing scalable, reusable components and building smooth user experiences with thoughtful UI/UX design. I'm always learning and excited to collaborate on real-world projects.
                     </p>
                 </motion.div>
-
                 {/* Skills / Tools */}
                 <motion.div
                     initial={{ opacity: 0, x: 40 }}
@@ -32,7 +31,7 @@ const About = () => {
                         {skills.map((tech, i) => (
                             <span
                                 key={i}
-                                className="bg-white text-primary hover:cursor-pointer hover:bg-light hover:scale-110 transition  px-3 py-2 rounded-lg shadow text-center"
+                                className="bg-white text-primary hover:cursor-pointer hover:bg-light hover:scale-105 transition-transform  px-3 py-2 rounded-lg shadow text-center"
                             >
                                 {tech}
                             </span>

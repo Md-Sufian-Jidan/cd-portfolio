@@ -17,7 +17,7 @@ const Navbar = () => {
 
     return (
         <nav className="bg-accent shadow-md fixed top-0 left-0 w-full z-50">
-            <div className="max-w-6xl mx-auto px-4 py-3 flex justify-between items-center">
+            <div className="px-6 py-3 flex justify-between items-center">
                 {/* ask teammates or mentor  */}
                 <Link to="/" className="text-2xl font-bold text-primary">MdAbuSufianJidan</Link>
 
