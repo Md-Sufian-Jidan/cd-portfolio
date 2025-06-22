@@ -4,7 +4,7 @@ const skills = ["HTML5", "CSS3", "JavaScript (ES6+)", "React.js", "Tailwind CSS"
 
 const About = () => {
     return (
-        <section className="min-h-screen bg-accent py-10 px-6">
+        <section className="min-h-[75vh] bg-accent py-10 px-6">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
                 {/* Bio Section */}
                 <motion.div

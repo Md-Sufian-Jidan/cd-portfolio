@@ -5,7 +5,7 @@ const skills = ["HTML5", "CSS3", "JavaScript (ES6+)", "React.js", "Tailwind CSS"
 
 const Resume = () => {
     return (
-        <section className="min-h-screen bg-accent py-10 px-6">
+        <section className="min-h-[75vh] bg-accent py-10 px-6">
             <div>
                 <motion.h2
                     initial={{ opacity: 0, y: 20 }}

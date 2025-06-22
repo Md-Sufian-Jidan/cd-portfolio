@@ -9,7 +9,7 @@ const Contact = () => {
         return <p className="text-center text-2xl mt-10 text-primary">Thanks for joining!</p>;
     }
     return (
-        <section className="min-h-screen bg-accent py-10 px-6">
+        <section className="bg-accent py-10 px-6">
             <div className="max-w-4xl mx-auto text-center">
                 <motion.h2
                     initial={{ opacity: 0, y: 20 }}
