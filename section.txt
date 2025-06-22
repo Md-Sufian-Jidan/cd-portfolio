@@ -1,0 +1,42 @@
+📄 Pages & Layout
+1. Home
+Hero section: "I build modern web experiences"
+
+CTA button: “Explore My Work”
+
+Add icon or abstract SVG background
+
+Layout: center-aligned headline, button below
+
+2. About
+Grid-style feature cards (like "Why Choose Us")
+
+Include experience, skills, and a short intro
+
+Use icons for visual enhancement
+
+3. Projects
+2-column or card layout
+
+Each card: title, short description, tools used
+
+Optional: image or hover effect
+
+4. Blog (Extra Page 1)
+Simple list or grid of posts
+
+Blog card: Title, date, preview, "Read More"
+
+5. Resume (Extra Page 2)
+Use timeline style or 2-column grid
+
+Section for education, experience, skills
+
+Download CV button
+
+6. Contact
+Form with Name, Email, Message
+
+Add icons or map (optional)
+
+Minimal, clean form layout

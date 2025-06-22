@@ -1,0 +1,67 @@
+1. Navbar (Already Done ✅)
+Sticky top bar
+
+Includes links to: Home, About, Projects, Blog, Resume, Contact
+
+Uses icons and framer motion
+
+2. Hero Section (Already Done ✅)
+Clean intro
+
+Headline + short text
+
+CTA button
+
+Motion on load
+
+3. Features / Services (✅ Done)
+6 feature cards (Why Choose Me?)
+
+Icons + short text per card
+
+3-column responsive grid
+
+4. Work Process / Workflow
+📌 Next Section To Build
+
+Visualizes a process (like: Research → Design → Develop → Deploy).
+You can build this as a horizontal or vertical stepper or card timeline with framer motion.
+
+5. Projects Section
+🧩 Show off your work
+
+2- or 3-column grid
+
+Image preview, title, short description, tags (React, Tailwind, etc.)
+
+6. Pricing Plans or Resume Block
+You can either:
+
+Offer freelance tiers (3 pricing cards), or
+
+Show your resume in 2-column format (Education | Experience)
+
+7. Testimonials or Client Logos (Optional)
+Logos of tech/tools you use
+
+OR feedback from 1–2 mock "clients" (real or fictional)
+
+8. Blog (Extra Page 1)
+Grid of articles
+
+Each blog card: Title, Date, Summary, Read More
+
+9. Contact Section
+Form with Name, Email, Message
+
+Social links or icon-based contact methods
+
+You could add a map or a "Let's talk" styled message
+
+10. Footer
+Copyright
+
+Navigation links
+
+Optional: social icons, contact info
+
