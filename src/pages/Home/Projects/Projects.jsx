@@ -5,6 +5,13 @@ const projects = [
     {
         title: "LuxeMatches",
         description: "Premium matchmaking platform with role-based auth, Stripe payments, dynamic filtering, and admin control.",
+        features: [
+            `Role-based Access & Authentication: Users can log in using Firebase Auth, and routes are protected with JWT 
+for security.`,
+            `Stripe Payment Integration: Users can securely pay to request contact details, which are later approved by 
+admins`,
+            `Dynamic Filtering & Pagination: Users can filter Biodata by age, division, and gender with seamless client-server sync.`
+        ],
         tech: ["React", "Node.js", "MongoDB", "Firebase", "Tailwind", "Stripe", "Firebase Auth", "Stripe", "React Router", "React Query", "Framer Motion", "SwiperJS", "JWT", "Axios"],
         live: "https://luxe-matches-client.vercel.app/",
         github: "https://github.com/Md-Sufian-Jidan/luxe-matches-client",
@@ -12,6 +19,11 @@ const projects = [
     {
         title: "WorkNest",
         description: "Job management app with employee salary tracking, dashboards, and JWT-secured role-based access.",
+        features: [
+            `Role-based dashboards: Three role based dashboards. Admin, Hr, Employee(JWT protected)`,
+            `Stripe integration for employee salary payments`,
+            `Work submission forms and monthly progress tracking`
+        ],
         tech: ["React", "Express", "MongoDB", "Node.js", "Tailwind", "Stripe", "Firebase Auth", "Stripe", "React Router", "React Query", "Framer Motion", "SwiperJS", "JWT", "Axios"],
         live: "https://work-nest-client.web.app/",
         github: "https://github.com/Md-Sufian-Jidan/work-nest-client",
@@ -19,6 +31,11 @@ const projects = [
     {
         title: "StudySync",
         description: "Online assessment system with role-based feedback, leaderboards, PDF previews, and light/dark mode.",
+        features: [
+            `Role-based access: Admins can review, give marks, and feedback.Users create and see the assignments.`,
+            `Preview: Submit assignments with PDF preview and notes.`,
+            `Features: Pagination, Difficulty Filter, Dark/Light Mode, Leaderboard.`
+        ],
         tech: ["React", "MongoDB", "Node.js", "Express", "JWT", "Firebase Authentication", "Tailwind CSS", "Axios", "SweetAlert2", "React Toastify", "Swiper.js", "React Awesome Reveal"],
         live: "https://online-assessment-client.web.app/",
         github: "https://github.com/Md-Sufian-Jidan/online-assessment-client",
