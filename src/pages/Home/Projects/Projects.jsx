@@ -6,11 +6,9 @@ const projects = [
         title: "LuxeMatches",
         description: "Premium matchmaking platform with role-based auth, Stripe payments, dynamic filtering, and admin control.",
         features: [
-            `Role-based Access & Authentication: Users can log in using Firebase Auth, and routes are protected with JWT 
-for security.`,
-            `Stripe Payment Integration: Users can securely pay to request contact details, which are later approved by 
-admins`,
-            `Dynamic Filtering & Pagination: Users can filter Biodata by age, division, and gender with seamless client-server sync.`
+            "Role-based Access & Authentication: Firebase Auth + JWT protection.",
+            "Stripe Payment Integration for secure contact requests.",
+            "Dynamic Filtering & Pagination: Filter biodata by age, gender, division."
         ],
         tech: ["React", "Node.js", "MongoDB", "Firebase", "Tailwind", "Stripe", "Firebase Auth", "Stripe", "React Router", "React Query", "Framer Motion", "SwiperJS", "JWT", "Axios"],
         live: "https://luxe-matches-client.vercel.app/",
@@ -20,9 +18,9 @@ admins`,
         title: "WorkNest",
         description: "Job management app with employee salary tracking, dashboards, and JWT-secured role-based access.",
         features: [
-            `Role-based dashboards: Three role based dashboards. Admin, Hr, Employee(JWT protected)`,
-            `Stripe integration for employee salary payments`,
-            `Work submission forms and monthly progress tracking`
+            "Role-based dashboards: Admin, HR, Employee.",
+            "Stripe integration for salary payments.",
+            "Monthly progress tracking and work submission forms."
         ],
         tech: ["React", "Express", "MongoDB", "Node.js", "Tailwind", "Stripe", "Firebase Auth", "Stripe", "React Router", "React Query", "Framer Motion", "SwiperJS", "JWT", "Axios"],
         live: "https://work-nest-client.web.app/",
@@ -30,11 +28,11 @@ admins`,
     },
     {
         title: "StudySync",
-        description: "Online assessment system with role-based feedback, leaderboards, PDF previews, and light/dark mode.",
+        description: "Online assessment system with role-based feedback, leaderboards, PDF previews, and dark mode.",
         features: [
-            `Role-based access: Admins can review, give marks, and feedback.Users create and see the assignments.`,
-            `Preview: Submit assignments with PDF preview and notes.`,
-            `Features: Pagination, Difficulty Filter, Dark/Light Mode, Leaderboard.`
+            "Admins can give marks & feedback. Users can submit assignments.",
+            "PDF preview & notes on submission.",
+            "Pagination, difficulty filters, dark/light mode, leaderboard."
         ],
         tech: ["React", "MongoDB", "Node.js", "Express", "JWT", "Firebase Authentication", "Tailwind CSS", "Axios", "SweetAlert2", "React Toastify", "Swiper.js", "React Awesome Reveal"],
         live: "https://online-assessment-client.web.app/",
@@ -42,20 +40,20 @@ admins`,
     },
 ];
 
-const Projects = () => {
+export default function Projects({ projectRef }) {
     return (
-        <section className="bg-accent py-10 px-6">
-            <div className="text-center">
+        <section id="projects" className="bg-light py-16 px-6">
+            <div className="max-w-6xl mx-auto text-center">
                 <motion.h2
                     initial={{ opacity: 0, y: 20 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.6 }}
                     className="text-3xl md:text-4xl font-bold text-primary mb-4"
                 >
-                    Projects I've Built
+                    Featured Projects
                 </motion.h2>
                 <p className="text-secondary mb-12 max-w-2xl mx-auto">
-                    Here are a few full-stack apps I’ve developed using React, Node, and modern frontend technologies.
+                    A few full-stack apps I’ve developed using modern web technologies.
                 </p>
 
                 <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-3">
@@ -70,6 +68,13 @@ const Projects = () => {
                             <div>
                                 <h3 className="text-xl font-semibold text-primary mb-2">{project.title}</h3>
                                 <p className="text-secondary text-sm mb-4">{project.description}</p>
+
+                                <ul className="text-left list-disc list-inside text-sm text-gray-600 mb-4 space-y-1">
+                                    {project.features.map((feature, i) => (
+                                        <li key={i}>{feature}</li>
+                                    ))}
+                                </ul>
+
                                 <div className="flex flex-wrap gap-2 mb-4">
                                     {project.tech.map((tech, i) => (
                                         <span
@@ -81,6 +86,7 @@ const Projects = () => {
                                     ))}
                                 </div>
                             </div>
+
                             <div className="flex gap-4 mt-4">
                                 <a
                                     href={project.live}
@@ -106,5 +112,3 @@ const Projects = () => {
         </section>
     );
 }
-
-export default Projects;

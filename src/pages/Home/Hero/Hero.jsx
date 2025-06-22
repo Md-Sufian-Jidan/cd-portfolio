@@ -1,5 +1,4 @@
 import { motion } from "framer-motion";
-import { Link } from "react-router-dom";
 import { FaArrowRight } from "react-icons/fa";
 
 const Hero = () => {
@@ -9,7 +8,7 @@ const Hero = () => {
                 initial={{ opacity: 0, y: 30 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.8, ease: "easeOut" }}
-                className="text-center max-w-2xl"
+                className="text-center max-w-4xl"
             >
                 <h1 className="text-4xl md:text-5xl font-bold text-primary mb-4">
                     We Connect <br className="hidden sm:block" /> Your Vision with Code
@@ -17,12 +16,12 @@ const Hero = () => {
                 <p className="text-secondary text-lg md:text-xl mb-8">
                     I’m a web developer building sleek, responsive websites and apps using modern tools like React, Tailwind, and Framer Motion.
                 </p>
-                <Link
-                    to="/projects"
+                <a
+                    href={`#projects`}
                     className="inline-flex items-center gap-2 px-6 py-3 bg-primary text-white rounded-xl font-semibold hover:scale-105 transition-transform"
                 >
                     View Projects <FaArrowRight className="mt-0.5" />
-                </Link>
+                </a>
             </motion.div>
         </section>
     );
