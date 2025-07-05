@@ -13,7 +13,7 @@ const Footer = () => {
             >
                 {/* Left: Name and year */}
                 <div className="text-sm text-center md:text-left">
-                    &copy; {new Date().getFullYear()} Md Abu Sufian Jidan. All rights reserved.
+                    &copy; 2024-{new Date().getFullYear()} Md Abu Sufian Jidan. All rights reserved.
                 </div>
 
                 {/* Center: Navigation links */}

@@ -1,10 +1,10 @@
 import { motion } from "framer-motion";
 
-const skills = ["HTML5", "CSS3", "JavaScript (ES6+)", "React.js", "Tailwind CSS", "React Router", "Node.js", "Express.js", "MongoDB", "Mongoose", "Firebase", "JWT", "Stripe", "Git / GitHub", "Postman", "Framer Motion", "Vite", "AOS"];
+const skills = ["HTML5", "CSS3", "JavaScript", "React.js", "Tailwind CSS", "React Router", "Node.js", "Express.js", "MongoDB", "Mongoose", "Firebase", "JWT", "Stripe", "Git / GitHub", "Postman", "Framer Motion", "Vite", "AOS"];
 
 const About = () => {
     return (
-        <section className="min-h-[75vh] bg-accent py-10 px-6">
+        <section className="min-h-screen bg-light py-10 px-6">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
                 {/* Bio Section */}
                 <motion.div
@@ -31,7 +31,7 @@ const About = () => {
                         {skills.map((tech, i) => (
                             <span
                                 key={i}
-                                className="bg-white text-primary hover:cursor-pointer hover:bg-light hover:scale-105 transition-transform  px-3 py-2 rounded-lg shadow text-center"
+                                className="bg-white text-primary hover:cursor-pointer hover:bg-accent hover:scale-105 transition-transform  px-3 py-2 rounded-lg shadow text-center"
                             >
                                 {tech}
                             </span>
